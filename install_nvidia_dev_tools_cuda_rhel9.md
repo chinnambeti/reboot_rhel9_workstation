@@ -1,5 +1,9 @@
 https://medium.com/@blackhorseya/step-by-step-guide-to-installing-nvidia-drivers-on-rhel-9-1107e0cd641d
 
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=RHEL&target_version=9&target_type=rpm_local
+
+Select the GPU that needs to be installed and install
+
     1  sudo dnf update
     2  sudo subscription-manager status
     3  sudo subscription-manager refresh
